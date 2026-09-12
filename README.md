@@ -72,29 +72,7 @@ telepass-insurance-conversion/
 ├── README.md
 ├── requirements.txt
 ├── telepass_insurance_conversion.ipynb
-└── telepass_insurance_data.xlsx  # not included
 ```
-
-## Setup
-
-Clone the repository and install the required packages:
-
-```bash
-git clone https://github.com/larasafak/telepass-insurance-conversion.git
-cd telepass-insurance-conversion
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-jupyter lab
-```
-
-Place an authorised copy of the workbook in `data/telepass_insurance_data.xlsx`. In the notebook, replace the existing local file path with:
-
-```python
-file_path = "data/telepass_insurance_data.xlsx"
-```
-
-The workbook is expected to contain sheets named `Insurance Quotes` and `Transactions`.
 
 ## Data Availability
 
