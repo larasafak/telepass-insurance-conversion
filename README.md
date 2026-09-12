@@ -72,8 +72,7 @@ telepass-insurance-conversion/
 ├── README.md
 ├── requirements.txt
 ├── telepass_insurance_conversion.ipynb
-└── data/
-    └── telepass_insurance_data.xlsx  # not included
+└── telepass_insurance_data.xlsx  # not included
 ```
 
 ## Setup
